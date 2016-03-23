@@ -1,0 +1,28 @@
+{
+  "name": "assets",
+  "homepage": "https://github.com/KabeerRifaye/imgbkt",
+  "authors": [
+    "Kabeer Rifaye <citizen.kabeer@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [
+    "node"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.2",
+    "bootstrap": "~3.3.6",
+    "angular-route": "~1.5.2",
+    "angular-bootstrap": "~1.2.5",
+    "font-awesome": "~4.5.0"
+  }
+}
