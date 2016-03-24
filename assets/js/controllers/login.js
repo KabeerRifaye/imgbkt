@@ -1,3 +1,3 @@
-imgbkt.controller('loginCtrl', function($scope){
+angular.module("imgbkt").controller('loginCtrl', function($scope){
 	$scope.name  = "Login";
 });

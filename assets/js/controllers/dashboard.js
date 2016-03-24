@@ -1,4 +1,4 @@
-imgbkt.controller('dashboardCtrl', function($scope, $location){
+angular.module("imgbkt").controller('dashboardCtrl', function($scope, $location){
 	$scope.getImage = [
 		'/images/static/1.jpg',
 		'/images/static/2.jpg',
