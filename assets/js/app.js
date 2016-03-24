@@ -6,7 +6,7 @@ imgbkt.config(['$routeProvider', '$locationProvider', function($routeProvider, $
 	$routeProvider
 	.when('/', {
 		templateUrl: 'templates/dashboard.html',
-		controller: 'TodoCtrl'
+		controller: 'dashboardCtrl'
 	})
 	.when('/register', {
 		templateUrl: 'templates/register.html',
@@ -14,7 +14,7 @@ imgbkt.config(['$routeProvider', '$locationProvider', function($routeProvider, $
 	})
 	.when('/login', {
 		templateUrl: 'templates/login.html',
-		controller: 'registerCtrl'
+		controller: 'loginCtrl'
 	})
 	.otherwise({
 		redirectTo: '/',
