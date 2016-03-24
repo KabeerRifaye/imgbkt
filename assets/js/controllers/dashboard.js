@@ -1,3 +1,4 @@
+angular.module('imgbkt', [])
 imgbkt.controller('dashboardCtrl', function($scope, $location){
 	$scope.getImage = [
 		'/images/static/1.jpg',
