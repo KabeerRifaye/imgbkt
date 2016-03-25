@@ -1,3 +1,3 @@
-angular.module("imgbkt").controller('loginCtrl', function($scope, $http){
+imgbkt.controller('loginCtrl', [ "$scope", "$http", function($scope, $http){
 	$scope.name  = "Login";
-});
+}]);

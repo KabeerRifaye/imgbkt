@@ -1,3 +1,3 @@
-angular.module("imgbkt").controller('registerCtrl',function($scope, $http){
+imgbkt.controller('registerCtrl',[ "$scope", "$http", function($scope, $http){
 	$scope.register = 'Register';
-});
+}]);

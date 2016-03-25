@@ -1,5 +1,4 @@
-angular.module("imgbkt").controller('dashboardCtrl',["$scope", "$location", "$http", function($scope, $location, $http){
-	// "ngInject";
+imgbkt.controller('dashboardCtrl',["$scope", "$location", function ($scope, $location){
 	$scope.getImage = [
 		'/images/static/1.jpg',
 		'/images/static/2.jpg',
